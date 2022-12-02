@@ -1,0 +1,193 @@
+.page {
+    position: relative;
+    width: 1280px;
+    height: 6875px;
+    margin: 0 auto;
+    background: #2A2C2F;
+}
+
+.__logo {
+    position: absolute;
+    width: 176px;
+    height: 52px;
+    left: 48px;
+    top: 28px;
+}
+
+.__lang-link {
+    position: absolute;
+    width: 30px;
+    height: 28px;
+    left: 1155px;
+    top: 46px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.__lang-link-en {
+    position: absolute;
+    width: 29px;
+    height: 28px;
+    right: 48px;
+    top: 46px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.__title {
+    margin: 0;
+    position: absolute;
+    width: 720px;
+    height: 200px;
+    left: 280px;
+    top: 136px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.__subtitle {
+    margin: 0;
+    position: absolute;
+    width: 640px;
+    height: 72px;
+    left: 320px;
+    top: 368px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.__image {
+    position: absolute;
+    width: 984px;
+    height: 615px;
+    left: 148px;
+    top: 504px;
+
+    background: url(kalegin-michail-179870-unsplash.jpg);
+}
+
+.group-4 {
+    position: absolute;
+    width: 937.09px;
+    height: 262.99px;
+    left: 171.27px;
+    top: 594.21px;
+}
+
+
+.__caption {
+    margin: 0;
+    position: absolute;
+    height: 14px;
+    left: 148px;
+    top: 1127px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.intro__title {
+    margin: 0;
+
+    position: absolute;
+    width: 690px;
+    height: 58px;
+    left: 148px;
+    top: 1233px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.intro__text {
+    margin: 0;
+    position: absolute;
+    width: 690px;
+    height: 208px;
+    left: 148px;
+    top: 1331px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    color: #FFFFFF;
+}
+
+.intro__list {
+    margin: 0;
+    position: absolute;
+    width: 690px;
+    height: 90px;
+    left: 148px;
+    top: 1572px;
+    padding-left: 0;
+    list-style-type: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.foto-grid {
+    position: absolute;
+    width: 1184px;
+    height: 671px;
+    left: 48px;
+    top: 1754px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.place {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    position: absolute;
+    width: 984px;
+    height: 660px;
+    left: 148px;
+    top: 2517px;
+
+}
