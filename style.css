@@ -155,8 +155,7 @@
 }
 
 .place__website {
-    width: 456px;
-    height: 46px;
+
     align-self: end;
 }
 
@@ -293,7 +292,7 @@
 @media screen and (max-width: 1024px) {
     .page {
         max-width: 1024px;
-        margin: 0 48px;
+        margin: 0 auto;
     }
 
     .lead__image {
@@ -347,12 +346,8 @@
 @media screen and (max-width: 768px) {
 
     .page {
-        max-width: 768px;
-    }
-
-    .header {
-        /* margin: 28px 24px 48px; */
-
+        margin: 0 auto;
+        width: 768px;
     }
 
 
@@ -541,7 +536,9 @@
         height: 216px;
     }
 
-    .places {}
+    .places {
+        width: auto;
+    }
 
     .place {
         width: 288px;
@@ -567,14 +564,18 @@
     }
 
     .place__url-heading {
+        width: 288px;
         margin-top: 32px;
     }
 
-    .place__link {}
+    .place__link {
+        width: 288px;
+
+    }
 
     .place__image {
         display: block;
-        margin: 32px 0;
+        margin: 32px -24px;
         width: 320px;
         height: 320px;
     }
@@ -593,60 +594,68 @@
 
     }
 
-
     .cover {
-        margin: 0 48px 92px;
-        position: relative;
+        width: 320px;
+        height: 200px;
     }
 
-    .cover__title {
-        position: absolute;
-        width: 560px;
-        height: 152px;
-        margin: 245px 312px 343px;
-        z-index: 3;
 
-        font-family: 'Inter';
-        font-style: normal;
+    .cover__title {
+        margin: 33px 16px 97px;
+        width: 288px;
         font-weight: 900;
-        font-size: 72px;
-        line-height: 76px;
-        text-align: center;
+        font-size: 32px;
+        line-height: 35px;
+
     }
 
     .cover__subtitle {
-        margin: 429px 412px 245px;
-        position: absolute;
-        width: 360px;
-        height: 66px;
+        width: 288px;
+        height: 48px;
+        margin: 119px 16px 33px;
+
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
-        line-height: 22px;
-        text-align: center;
-        z-index: 3;
+        font-size: 14px;
+        line-height: 16px;
     }
 
-    .cover:hover .cover__overlay {
-        position: absolute;
-        width: 100%;
-        height: 100%;
 
-        z-index: 2;
-        background-color: #2A2C2F;
-        opacity: 0.8;
+    .cover:hover .cover__overlay {
+        width: 320px;
+        height: 200px;
     }
 
     .cover__background {
-        width: 100%;
-        height: 100%;
+        width: 320px;
+        height: 200px;
     }
 
 
+    .footer {
+        margin: 0 16px 0;
+        display: block
+    }
 
+    .footer__link {
+        margin-bottom: 32px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+    }
 
+    .footer__link:last-child {
+        margin-bottom: 48px;
+    }
 
+    .footer__copyright {
+        padding: 0;
+        font-size: 14px;
+        line-height: 14px;
+    }
 
 
 }
