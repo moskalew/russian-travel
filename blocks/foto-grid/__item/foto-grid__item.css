@@ -5,3 +5,11 @@
         height: 264px;
     }
 }
+
+@media screen and (max-width: 320px) {
+
+    .foto__item {
+        width: 288px;
+        height: 216px;
+    }
+}

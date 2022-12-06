@@ -15,3 +15,11 @@
         margin: 0 24px 0;
     }
 }
+
+@media screen and (max-width: 320px) {
+
+    .footer {
+        margin: 0 16px 0;
+        display: block
+    }
+}

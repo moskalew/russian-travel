@@ -17,3 +17,16 @@
         line-height: 46px;
     }
 }
+
+@media screen and (max-width: 320px) {
+
+    .place__title {
+        margin-top: 50px;
+        width: 288px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

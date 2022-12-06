@@ -7,3 +7,11 @@
     background-color: #2A2C2F;
     opacity: 0.8;
 }
+
+@media screen and (max-width: 320px) {
+
+    .cover:hover .cover__overlay {
+        width: 320px;
+        height: 200px;
+    }
+}

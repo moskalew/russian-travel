@@ -20,3 +20,13 @@
         background-position: cover;
     }
 }
+
+@media screen and (max-width: 320px) {
+
+    .place__image {
+        display: block;
+        margin: 32px -24px;
+        width: 320px;
+        height: 320px;
+    }
+}
