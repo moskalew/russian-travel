@@ -1,0 +1,22 @@
+.page {
+    margin: 0 auto;
+    width: 1280px;
+    background-color: #2A2C2F;
+    color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .page {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .page {
+        margin: 0 auto;
+        width: 768px;
+    }
+}
