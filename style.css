@@ -119,7 +119,7 @@
 }
 
 .foto-grid {
-    width: 1184px;
+    /* width: 1184px; */
     margin: 0 48px 92px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -160,7 +160,7 @@
 }
 
 .place__url-heading {
-    margin: 0;
+    margin: 0 0 12px 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -170,13 +170,23 @@
 }
 
 .place__link {
-    margin: 12px 0 0;
+    margin: 0px 0 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.place__link:visited {
+    color: #FFFFFF;
+}
+
+.place__link:link {
+    color: #FFFFFF;
+
 }
 
 .place__image {
@@ -231,6 +241,14 @@
     text-align: center;
 }
 
+.cover__title:link {
+    text-decoration-line: none;
+}
+
+.cover__title:visited {
+    color: #FFFFFF;
+}
+
 .cover__subtitle {
     margin: 429px 412px 245px;
     position: absolute;
@@ -273,11 +291,21 @@
 }
 
 .footer__link {
+    text-decoration-line: none;
     padding: 0;
     margin: 0 18px 0 0;
     font-size: 16px;
     line-height: 18px;
 }
+
+.footer__link:visited {
+    color: #FFFFFF;
+}
+
+.footer__link:link {
+    color: #FFFFFF;
+}
+
 
 .footer__copyright {
     margin: 0;
@@ -304,7 +332,7 @@
     }
 
     .foto-grid {
-        width: 928px;
+        /* width: 928px; */
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 1fr);
         gap: 14px;
@@ -365,7 +393,7 @@
 
     .foto-grid {
         margin: 0 24px 88px;
-        width: 352px;
+        /* width: 352px; */
         grid-template-columns: min-content 456px;
         grid-template-rows: repeat(2, 1fr);
         grid-auto-rows: 1fr;
@@ -569,8 +597,8 @@
     }
 
     .place__link {
+        color: #FFFFFF;
         width: 288px;
-
     }
 
     .place__image {
@@ -579,8 +607,6 @@
         width: 320px;
         height: 320px;
     }
-
-
 
     .place__paragraph {
         width: 288px;
@@ -631,7 +657,6 @@
         width: 320px;
         height: 200px;
     }
-
 
     .footer {
         margin: 0 16px 0;
