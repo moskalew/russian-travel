@@ -5,6 +5,13 @@
     grid-template-columns: 1fr repeat(2, min-content);
 }
 
+@media screen and (max-width: 1024px) {
+
+    .header {
+        margin: 0px 24px 0px;
+    }
+}
+
 @media screen and (max-width: 320px) {
 
     .header {

@@ -3,16 +3,25 @@
     padding-bottom: 24px;
     display: grid;
     grid-template-columns: repeat(5, min-content) 1fr;
-    justify-items: end;
+    /* justify-items: end; */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .footer {
+        margin: 0 24px 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
 
     .footer {
         margin: 0 24px 0;
+        grid-template-columns: 1fr;
+        justify-items: start;
     }
 }
 

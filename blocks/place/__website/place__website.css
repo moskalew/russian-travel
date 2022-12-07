@@ -2,6 +2,12 @@
     align-self: end;
 }
 
+/* @media screen and (max-width: 768px) {
+    .place__website {
+        flex-wrap: wrap
+    }
+} */
+
 @media screen and (max-width: 320px) {
 
     .place__website {

@@ -1,13 +1,21 @@
 .lead {
     display: grid;
     justify-content: space-around;
+    grid-template-columns: 100%;
+    margin: 0 48px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 320px) {
 
     .lead {
         margin: 0 auto;
-        width: 320px;
+        /* width: 320px; */
         grid-template-columns: 288px;
         grid-template-rows: min-content;
     }

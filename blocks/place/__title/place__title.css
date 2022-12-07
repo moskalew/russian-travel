@@ -22,7 +22,7 @@
 
     .place__title {
         margin-top: 50px;
-        width: 288px;
+        /* width: 288px; */
         font-family: 'Inter';
         font-style: normal;
         font-weight: 900;

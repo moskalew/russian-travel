@@ -1,15 +1,30 @@
+.foto-grid__item {
+    object-fit: cover;
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    /* .foto-grid__item {
+        object-fit: cover;
+        width: 100%;
+    } */
+}
+
 @media screen and (max-width: 768px) {
 
     .foto-grid__item {
-        width: 352px;
-        height: 264px;
+        /* object-fit: cover;
+        width: 100%; */
     }
 }
 
 @media screen and (max-width: 320px) {
 
-    .foto__item {
-        width: 288px;
-        height: 216px;
+    .foto-grid__item {
+        margin-bottom: 12px;
+    }
+
+    .foto-grid__item:last-child {
+        margin-bottom: 0;
     }
 }
