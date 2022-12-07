@@ -21,14 +21,15 @@
 
     .foto-grid {
         margin: 0 24px 0;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 1fr 1fr;
+        ;
         grid-template-rows: repeat(2, 1fr);
         grid-auto-rows: 1fr;
         gap: 16px;
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 450px) {
     .foto-grid {
         grid-template-columns: 1fr;
     }

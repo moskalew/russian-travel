@@ -12,17 +12,18 @@
 @media screen and (max-width: 1024px) {
 
     .footer {
-        margin: 0 24px 0;
+        margin: 92px 24px 0;
     }
 }
 
 @media screen and (max-width: 768px) {
 
     .footer {
-        margin: 0 24px 0;
+        margin: 88px 24px 0;
         grid-template-columns: 1fr;
         grid-template-rows: min-content;
         justify-items: start;
+        padding-top: 64px;
     }
 }
 
