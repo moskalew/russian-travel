@@ -23,7 +23,6 @@
         grid-template-columns: 1fr;
         grid-template-rows: min-content;
         justify-items: start;
-        padding-top: 64px;
     }
 }
 
