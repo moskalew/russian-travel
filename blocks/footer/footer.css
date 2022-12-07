@@ -21,6 +21,7 @@
     .footer {
         margin: 0 24px 0;
         grid-template-columns: 1fr;
+        grid-template-rows: min-content;
         justify-items: start;
     }
 }
@@ -28,7 +29,10 @@
 @media screen and (max-width: 320px) {
 
     .footer {
+        display: flex;
+        flex-direction: column;
+        padding-top: 64px;
         margin: 0 16px 0;
-        display: block
+        align-items: flex-start
     }
 }
