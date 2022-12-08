@@ -12,11 +12,11 @@
       <section class="header">
         <img src="./images/__logo.svg" alt="логотип" class="header__logo" />
         <ul>
-          <li>
-            <a class="header__lang-link header__lang-link_active">Ru</a>
+          <li class="header__lang-link header__lang-link_active">
+            <a>Ru</a>
           </li>
-          <li>
-            <a class="header__lang-link header__lang-link_active">En</a>
+          <li class="header__lang-link header__lang-link_active">
+            <a>En</a>
           </li>
         </ul>
       </section>
@@ -57,7 +57,7 @@
         </ul>
       </div>
 
-      <div class="foto-grid">
+      <section class="foto-grid">
         <img
           src="./images/grid-jpg/train.jpg"
           alt="Фото природы"
@@ -120,14 +120,14 @@
           alt="Фото природы"
           class="foto-grid__item"
         />
-      </div>
-      <br />
+      </section>
+
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
 
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading"></p>
             <a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
           </div>
           <img
@@ -151,13 +151,13 @@
               прохладного моря.
             </p>
           </div>
-        </div>
+        </article>
 
         <div class="place">
           <h2 class="place__title">Кольский</h2>
 
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading"></p>
             <a
               href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
               class="place__link"
@@ -191,7 +191,7 @@
           <h2 class="place__title">Алтай</h2>
 
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading"></p>
             <a
               href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ"
               class="place__link"
@@ -225,8 +225,11 @@
           <h2 class="place__title">Зимний Байкал</h2>
 
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
-            <a href="https://vk.com/baikalmile" class="place__link"
+            <p class="place__url-heading"></p>
+            <a
+              href="https://vk.com/baikalmile"
+              class="place__link"
+              target="_blank"
               >https://vk.com/baikalmile</a
             >
           </div>
@@ -255,8 +258,8 @@
           <h2 class="place__title">Карелия</h2>
 
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
-            <a href="http://vodlozero.ru " class="place__link"
+            <p class="place__url-heading"></p>
+            <a href="http://vodlozero.ru " class="place__link" target="_blank"
               >http://vodlozero.ru/</a
             >
           </div>
@@ -282,7 +285,11 @@
       </section>
 
       <section class="cover">
-        <a class="link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+        <a
+          class="link"
+          href="https://stampsy.com/na-elektrichkakh-do-baikala"
+          target="_blank"
+        >
           <p class="cover__title">До Байкала «на собаках»</p>
           <p class="cover__subtitle">
             По мотивам учебной темы о Транссибе — путешествие от столицы до
@@ -299,19 +306,19 @@
       <footer class="footer">
         <ul>
           <li class="footer__link">
-            <a href="https://yandex.ru/maps"> Карты </a>
+            <a href="https://yandex.ru/maps" target="_blank"> Карты </a>
           </li>
           <li class="footer__link">
-            <a href="https://yandex.ru/pogoda"> Погода </a>
+            <a href="https://yandex.ru/pogoda" target="_blank"> Погода </a>
           </li>
           <li class="footer__link">
-            <a href="https://rasp.yandex.ru">Расписание</a>
+            <a href="https://rasp.yandex.ru" target="_blank">Расписание</a>
           </li>
           <li class="footer__link">
-            <a href="https://calendar.yandex.ru">Календарь</a>
+            <a href="https://calendar.yandex.ru" target="_blank">Календарь</a>
           </li>
           <li class="footer__link">
-            <a href="https://travel.yandex.ru">Путешествия</a>
+            <a href="https://travel.yandex.ru" target="_blank">Путешествия</a>
           </li>
         </ul>
         <p class="footer__copyright">© 2020. Впишите Cвоё Имя</p>

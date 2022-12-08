@@ -1,12 +1,16 @@
 .place__url-heading {
     margin: 0 0 12px 0;
-    text-transform: uppercase;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
     letter-spacing: 2px;
+}
+
+.place__url-heading::before {
+    content: 'url';
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 320px) {
