@@ -9,5 +9,12 @@
     color: #FFFFFF;
     max-width: 360px;
     margin: 0 auto;
-    /* padding: 32px 0 0px 369px; */
+    /* padding-top: 245px; */
+}
+
+@media screen and (max-width: 1024) {
+
+    .cover__subtitle {
+        /* padding-top: ; */
+    }
 }
