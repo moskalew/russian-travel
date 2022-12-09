@@ -1,6 +1,6 @@
 .place__image {
     object-fit: cover;
-    min-width: 97%;
+    max-width: 100%;
 }
 
 @media screen and (max-width: 320px) {
