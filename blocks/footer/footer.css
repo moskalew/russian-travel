@@ -1,9 +1,10 @@
 .footer {
-    margin: 0 48px 24px;
-    padding-bottom: 24px;
-    display: grid;
-    grid-template-columns: repeat(5, min-content) 1fr;
-    /* justify-items: end; */
+    margin: 0;
+    padding: 89px 48px 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;

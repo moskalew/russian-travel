@@ -1,21 +1,8 @@
 .header {
     display: grid;
-    padding-top: 28px;
-    margin: 0 48px 56px;
-    grid-template-columns: 1fr repeat(2, min-content);
-}
+    padding: 28px 48px 22px;
+    margin: 0;
+    grid-template-columns: 1fr 1fr;
+    grid-area: a b;
 
-@media screen and (max-width: 1024px) {
-
-    .header {
-        margin: 0px 24px 0px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-
-    .header {
-        margin: 0px 16px 0px;
-        padding-top: 16px;
-    }
 }

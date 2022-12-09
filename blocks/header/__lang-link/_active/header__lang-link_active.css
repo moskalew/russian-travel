@@ -1,3 +1,19 @@
+.header__lang-link_active {
+    text-decoration-line: none
+}
+
 .header__lang-link_active:hover {
     text-decoration-line: underline;
+}
+
+.header__lang-link_active:hover {
+    opacity: 0.8;
+}
+
+.header__lang-link_active:visited {
+    color: #FFFFFF;
+}
+
+.header__lang-link:last-child {
+    margin-left: 18px;
 }

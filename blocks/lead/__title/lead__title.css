@@ -1,22 +1,27 @@
 .lead__title {
-    margin: auto;
+    margin: 0 auto;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-size: 96px;
     font-weight: 900;
     line-height: 100px;
-    /* letter-spacing: 0em; */
     text-align: center;
+    max-width: 720px;
+    padding-top: 26px;
+}
 
+@media screen and (max-width: 680px) {
+
+    .lead__title {
+        max-width: 80%;
+        font-size: 40px;
+        line-height: 44px;
+    }
 }
 
 @media screen and (max-width: 320px) {
 
     .lead__title {
-        font-family: Inter;
-        font-size: 40px;
-        line-height: 44px;
-
-
+        max-width: 288px;
 
     }
 }

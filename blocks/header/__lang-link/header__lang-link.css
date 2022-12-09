@@ -1,20 +1,29 @@
 .header__lang-link {
-    display: inline-block;
     list-style-type: none;
+    display: inline-block;
 
-    align-self: end;
-    font-family: 'Inter';
+
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+
+    font-style: normal;
+    font-weight: 400;
     font-size: 24px;
-    margin-bottom: 6px;
-    margin: 0;
+    line-height: 28px;
+    text-align: right;
+    margin: 0 0 0 0;
     padding: 0;
+    color: #FFFFFF;
+    grid-area: b;
+    align-content: end;
+    align-items: end;
+    align-self: flex-end;
 }
 
-.header__lang-link:last-child {
-    margin-left: 18px;
+.header__lang-link:visited {
+    color: #FFFFFF;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
 
     .header__lang-link {
         font-weight: 400;
