@@ -9,6 +9,12 @@
     padding-top: 26px;
 }
 
+@media screen and (max-width: 1024px) {
+    .lead__title {
+        padding-top: 19px;
+    }
+}
+
 @media screen and (max-width: 680px) {
 
     .lead__title {

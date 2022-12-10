@@ -1,8 +1,9 @@
 .header {
-    display: grid;
-    padding: 28px 48px 22px;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 48px 17px;
+
     margin: 0;
-    grid-template-columns: 1fr 1fr;
-    grid-area: a b;
+
 
 }
