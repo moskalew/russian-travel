@@ -14,14 +14,13 @@
 
     .footer {
         padding: 88px 48px 24px;
-
     }
 }
 
 @media screen and (max-width: 768px) {
 
     .footer {
-        margin: 88px 24px 0;
+        padding: 84px 24px 24px;
         grid-template-columns: 1fr;
         grid-template-rows: min-content;
         justify-items: start;

@@ -13,9 +13,17 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .lead {
+        padding: 0;
+    }
+}
+
 @media screen and (max-width: 320px) {
 
     .lead {
+        display: flex;
+        flex-direction: column;
         margin: 0 auto;
         grid-template-columns: 288px;
         grid-template-rows: min-content;

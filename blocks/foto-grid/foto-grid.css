@@ -1,5 +1,6 @@
 .foto-grid {
-    margin: 0 48px 92px;
+
+    padding: 0px 48px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -19,7 +20,8 @@
 @media screen and (max-width: 768px) {
 
     .foto-grid {
-        margin: 0 24px 0;
+        margin: 0;
+        padding: 0 24px 0;
         grid-template-columns: 1fr 1fr;
         ;
         grid-template-rows: repeat(2, 1fr);
@@ -38,8 +40,8 @@
 @media screen and (max-width: 320px) {
 
     .foto-grid {
-
-        margin: 0 16px 0;
-        display: block;
+        margin: 0;
+        padding: 90px 16px 0px;
+        gap: 0;
     }
 }

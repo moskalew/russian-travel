@@ -11,3 +11,12 @@
         margin: 196px 0 0;
     }
 }
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .cover {
+        padding: 24px 0 0;
+    }
+}
