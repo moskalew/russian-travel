@@ -6,10 +6,6 @@
     font-size: 12px;
     line-height: 12px;
     letter-spacing: 2px;
-}
-
-.place__url-heading::before {
-    content: 'url';
     text-transform: uppercase;
 }
 

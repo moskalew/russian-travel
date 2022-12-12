@@ -1,12 +1,13 @@
 .cover {
-    margin: 0;
+    box-sizing: border-box;
     padding: 92px 48px 0;
-    position: relative;
 }
 
 @media screen and (max-width: 1024px) {
 
     .cover {
-        padding: 24px 0 0;
+        padding-left: 0;
+        padding-right: 0;
     }
+
 }

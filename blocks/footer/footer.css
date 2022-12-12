@@ -1,7 +1,6 @@
 .footer {
     margin: 0;
-    padding: 89px 48px 23px;
-    display: flex;
+    display: grid;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
@@ -22,16 +21,14 @@
     .footer {
         padding: 84px 24px 24px;
         grid-template-columns: 1fr;
-        grid-template-rows: min-content;
+
         justify-items: start;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 580px) {
 
     .footer {
-        display: flex;
-        flex-direction: column;
         padding-top: 64px;
         margin: 0 16px 0;
         align-items: flex-start
