@@ -20,9 +20,8 @@
 
     .footer {
         padding: 84px 24px 24px;
-        grid-template-columns: 1fr;
+        flex-direction: column;
 
-        justify-items: start;
     }
 }
 
