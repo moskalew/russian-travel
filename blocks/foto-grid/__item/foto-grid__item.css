@@ -6,7 +6,7 @@
 @media screen and (max-width: 320px) {
 
     .foto-grid__item {
-        padding: 0 0 8px 0px;
+        padding-bottom: 12px;
     }
 
     .foto-grid__item:last-child {
