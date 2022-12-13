@@ -21,16 +21,22 @@
 
     .footer {
         padding: 84px 24px 24px;
-        flex-direction: column;
-
     }
 }
 
 @media screen and (max-width: 580px) {
 
     .footer {
-        padding-top: 64px;
         margin: 0 16px 0;
         align-items: flex-start
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+
+    .footer {
+        padding: 64px 16px 24px;
+        flex-direction: column;
     }
 }
