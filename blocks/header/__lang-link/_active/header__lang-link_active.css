@@ -5,3 +5,7 @@
 .header__lang-link_active:hover {
     text-decoration-line: underline;
 }
+
+.header__lang-link_active:visited {
+    text-decoration-line: underline;
+}
