@@ -10,6 +10,7 @@
     margin: 0 0 0 0;
     padding: 0;
     color: #FFFFFF;
+    text-decoration-line: none;
 }
 
 .header__lang-link:hover {
