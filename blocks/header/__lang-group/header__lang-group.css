@@ -1,6 +1,7 @@
 .header__lang-group {
     padding-top: 24px;
     margin: 0;
+    display: flex;
 }
 
 @media screen and (max-width: 320px) {
