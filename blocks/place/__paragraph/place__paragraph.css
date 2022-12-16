@@ -18,18 +18,16 @@
 @media screen and (min-width: 768px) {
 
     .place__paragraph {
-        /* font-size: 16px;
-        line-height: 26px; */
+        font-size: 16px;
+        line-height: 26px;
         text-align: left;
-        padding-bottom: 25px;
+        padding-bottom: 24px;
     }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
     .place__paragraph {
-        font-size: 16px;
-        line-height: 26px;
         padding-left: 16px;
         padding-right: 16px;
     }
