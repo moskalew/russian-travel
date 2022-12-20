@@ -2,3 +2,10 @@
     object-fit: cover;
     max-width: 100%;
 }
+
+@media screen and (width: 768px) {
+    .place__image {
+        max-width: 340px;
+    }
+
+}
