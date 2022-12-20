@@ -13,11 +13,11 @@
         font-size: 42px;
         line-height: 46px;
         max-width: 360px;
-        padding-right: 20px;
+        padding-right: 10px;
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 
     .place__title {
         padding: 50px 16px 0;

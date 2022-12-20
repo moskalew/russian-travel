@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 161%;
+    line-height: 163%;
     margin: 0;
     padding-bottom: 26px;
 }
@@ -19,13 +19,14 @@
         font-size: 16px;
         line-height: 26.08px;
         text-align: left;
-        padding-bottom: 26px;
+        padding-bottom: 25px;
     }
 }
 
 @media screen and (max-width: 767px) {
 
     .place__paragraph {
+        padding-left: 16px;
         padding-right: 16px;
         padding-bottom: 25px;
     }
